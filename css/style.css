@@ -1,0 +1,38 @@
+.bannerBgImage{
+    height: 100vh;
+    background-image:url("/images/background imag1.jpg");
+    background-size: cover;
+    position: relative;
+}
+.bannerText{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+}
+.bannerText{
+    font-size: 4rem;
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+.card{
+     cursor: pointer;
+}
+.card:hover{
+    background-color:palevioletred;
+    border:3px solid yellowgreen;
+}
+.bIcon{
+    width:100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border:3px solid yellowgreen;
+}
+.card-img-top{
+    height:50vh;
+}
